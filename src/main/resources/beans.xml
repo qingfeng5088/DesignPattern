@@ -9,4 +9,10 @@
         <constructor-arg type="String" value="1270.0.01"/>
         <constructor-arg type="int" value="5088"/>
     </bean>
+    <bean id="demoListener" class="practice.spring.DemoListener">
+    </bean>
+    <bean id="DemoListener2" class="practice.spring.DemoListener2">
+    </bean>
+    <bean id="applicationEventMulticaster" class="practice.spring.Myulticaster">
+    </bean>
 </beans>
